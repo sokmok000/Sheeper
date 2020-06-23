@@ -131,7 +131,7 @@ function myFunction() {
       
       <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     
-      <a href="/" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><i class="glyphicon glyphicon-home"></i> Home </a>
+      <a href="/" class="w3-bar-item w3-button w3-padding-large"><i class="glyphicon glyphicon-home"></i> Sneaker</a>
       
 
       <%if(!locals.user){%>
@@ -156,7 +156,7 @@ function myFunction() {
         
     </div>
   </form> -->
-</div>
+
 <%}%>
 <!-- ค้นหาcss -->
 <style>
@@ -197,8 +197,8 @@ function myFunction() {
   <a href="/contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact Us</a> 
   <div style="float: right;" class="w3-dropdown-hover w3-hide-small">
     <a href="/logout" style="float: right;"  class="w3-bar-item w3-button w3-padding-large w3-hide-small " >Logout</a>
-
-</div><a href="/profile" style="float: right;" class="w3-bar-item w3-button w3-padding-large w3-hide-small"> Profile Name Is <%= user.username %></a>
+</div>
+<a href="/profile" style="float: right;" class="w3-bar-item w3-button w3-padding-large w3-hide-small"> Profile Name Is <%= user.username %></a>
 
 <!-- ค้นหาตอนlog in -->
 <!-- <form action="/search" method="GET">
@@ -209,11 +209,12 @@ function myFunction() {
     
   </div>
 </form> -->
-</div>
+
 
 
 <%}%>
 </div>
+
 
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px; ">
 
